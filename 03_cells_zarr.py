@@ -119,8 +119,8 @@ def main():
 
                 chunk = src_mask[r0:r1, c0:c1]
 
-                paste_c = round(bb["x_min_new"] / PIXEL_SIZE)
-                paste_r = round(bb["y_min_new"] / PIXEL_SIZE)
+                paste_c = c0 + round(bb["dx"] / PIXEL_SIZE)
+                paste_r = r0 + round(bb["dy"] / PIXEL_SIZE)
                 skip_c = max(0, -paste_c); skip_r = max(0, -paste_r)
                 dst_c = max(0, paste_c);   dst_r = max(0, paste_r)
 

@@ -62,7 +62,6 @@ def main():
         "protein_panel.json",
         "metrics_summary.csv",
         "index.html",
-        "analysis.zarr.zip",
         "analysis_summary.html",
     ]
     print("Copying verbatim files …")

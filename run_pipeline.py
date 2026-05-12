@@ -57,6 +57,7 @@ if __name__ == "__main__":
         "05_morphology_main",
         "06_morphology_focus",
         "07_transcripts",
+        "08_analysis",
     ]
 
     for step_name in steps:
